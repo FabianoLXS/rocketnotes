@@ -9,7 +9,6 @@ grid-template-rows: 105px auto;
 grid-template-areas: 
 "header"
 "content"
-
 `;
 
 
