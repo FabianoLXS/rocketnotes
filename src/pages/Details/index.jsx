@@ -12,9 +12,12 @@ export function Details() {
 
       <Section title="Links úteis">
         <Links>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
+          <li>
+            <a href="#">https://www.rocketseat.com.br</a>
+          </li>
+          <li>
+            <a href="#">https://www.rocketseat.com.br</a>
+          </li>
         </Links>
       </Section>
 
