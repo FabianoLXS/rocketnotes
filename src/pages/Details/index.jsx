@@ -24,7 +24,7 @@ export function Details() {
 
       <Section title="Marcadores">
         <Tag title="express" />
-        <Tag title="node js />
+        <Tag title="node js" />
       </Section>
 
       <Button title="Voltar" />
