@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const Container = styled.div`
   width: 100%;
@@ -7,10 +7,20 @@ export const Container = styled.div`
   display: grid;
   grid-template-rows: 105px auto;
   grid-template-areas:
-  "header"
-  "content";
-  
-`;
+    "header"
+    "content";
+
+  > main {
+    grid-area: content;
+    overflow-y: auto;
+  }
+
+  .tags {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+`
 
 export const Form = styled.form`
   max-width: 550px;
@@ -25,8 +35,7 @@ export const Form = styled.form`
 
     a {
       font-size: 20px;
-      color: ${({theme})=>theme.COLORS.GRAY_100};
-
+      color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
-}
+  }
 `
