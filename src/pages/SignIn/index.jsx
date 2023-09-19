@@ -20,7 +20,7 @@ export function SignIn(){
         <Input placeholder="Senha" type="password" icon={FiLock} />
 
         <Button title="Entrar" />
-        <Link to ="/register"/>
+        <Link to ="/register">Criar conta</Link>
       </Form>
 
       <Background/>
